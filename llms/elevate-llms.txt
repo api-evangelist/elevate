@@ -1,0 +1,24 @@
+# Elevate
+
+> AI-powered, cloud-native consumer-directed benefits administration platform for HSAs, FSAs, HRAs, and commuter, lifestyle, and family-forming accounts. Built API-first and white-label so administrators, TPAs, PEOs, brokers, financial institutions, and health plans can embed real-time account management, instant claims, and reimbursement into their own front ends. Founded 2020; backed by Anthemis, Fin Capital, Norwest Venture Partners, Greycroft, Bowery Capital, Firebolt Ventures, and SaaS Ventures. HIPAA and AICPA SOC compliant. The Elevate API is partner-gated (access via demo/contract); there is no public OpenAPI specification.
+
+## Product
+- [Benefits technology platform](https://www.elevate.ai/benefits-technology-platform): HSAs, FSAs, HRAs, commuter, lifestyle, family-forming
+- [HSA software](https://www.elevate.ai/full-platform/hsa-software): modern health savings account administration
+- [Benefit platforms use case](https://www.elevate.ai/use-cases/benefit-platforms): white-label, API-driven embedding for partners
+
+## Docs
+- [Blog](https://www.elevate.ai/blog)
+- [Resource Center](https://www.elevate.ai/resource-center)
+- [The API model for benefits platform partners](https://www.elevate.ai/blog/api-model)
+- [Press](https://www.elevate.ai/press)
+
+## Account & Support
+- [Request a demo (partner onboarding / sign up)](https://www.elevate.ai/request-a-demo)
+- [Member login](https://user.elevateaccounts.com/login)
+- [Contact / Support](https://www.elevate.ai/contact-us) — support@elevate.inc
+
+## Legal & Security
+- [Terms of Use](https://www.elevate.ai/legal/terms-of-use)
+- [Privacy Policy](https://www.elevate.ai/legal/privacy-policy)
+- [Security & Compliance (HIPAA, AICPA SOC)](https://www.elevate.ai/legal/security)

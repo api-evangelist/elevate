@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.elevate.ai/legal/security
+note: >-
+  Compliance posture taken verbatim from Elevate's public security page, which
+  displays HIPAA and AICPA SOC certification badges. No public OpenAPI spec is
+  available (the Elevate benefits API is partner-gated), so cross-cutting API
+  standards below are asserted only where the provider documents them.
+standards:
+- id: hipaa
+  conforms: true
+  evidence: HIPAA certification badge published on https://www.elevate.ai/legal/security
+- id: soc2
+  conforms: true
+  evidence: AICPA SOC certification badge published on https://www.elevate.ai/legal/security
+- id: oauth2
+  conforms: false
+  evidence: no public OpenAPI spec or documented OAuth flows (API is partner-gated)
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public OpenAPI spec available to confirm application/problem+json

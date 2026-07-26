@@ -1,8 +1,19 @@
 aid: elevate
 name: Elevate
-description: Elevate is a company surfaced as a portfolio company of 500-global, anthemis, general-catalyst,
-  norwest-venture-partners and added to the API Evangelist network as a stub for enrichment. This profile
-  is a lead awaiting the enrichment pipeline.
+description: >-
+  Elevate is an AI-powered, cloud-native consumer-directed benefits
+  administration platform for health savings accounts (HSAs), flexible spending
+  accounts (FSAs), health reimbursement arrangements (HRAs), and commuter,
+  lifestyle, and family-forming accounts. Built API-first and white-label, the
+  platform lets benefits administrators, third-party administrators (TPAs),
+  PEOs, brokers, financial institutions, and health plans embed real-time
+  account management, instant claims processing, and reimbursement into their
+  own front ends. Members view, plan, and manage every pre-tax benefit from a
+  single web and mobile dashboard with one card across all accounts. Founded in
+  2020, Elevate is backed by Anthemis, Fin Capital, Norwest Venture Partners,
+  Greycroft, Bowery Capital, Firebolt Ventures, and SaaS Ventures. Its complete
+  API set is partner-gated (access via demo/contract); the platform is HIPAA and
+  AICPA SOC compliant.
 url: https://raw.githubusercontent.com/api-evangelist/elevate/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,13 +22,40 @@ x-backed-by:
 - anthemis
 - general-catalyst
 - norwest-venture-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: portfolio-lead-enriched
+x-note: >-
+  elevateapp.com (in the original stub) redirects to an unrelated brain-training
+  app; the correct company is the benefits platform at elevate.ai / elevate.inc.
+  developer.elevate.services is Intermedia's unrelated "Elevate" UCaaS product
+  and is NOT this company. Elevate's benefits API is partner-gated with no public
+  OpenAPI spec, so spec-derived artifacts are N/A.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Benefits Administration
+- Health Savings Accounts
+- Flexible Spending Accounts
+- HRA
+- Fintech
+- Insurtech
+- Employee Benefits
+- White Label
+- Embedded Finance
+image: https://cdn.prod.website-files.com/6537d1496ae55969d9298a91/65b7a3bce315fecbf36ef612_Elevate%20Open%20Graph%20Image.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,4 +64,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://elevateapp.com
+  url: https://www.elevate.ai/
+- type: Blog
+  url: https://www.elevate.ai/blog
+- type: Support
+  url: https://www.elevate.ai/contact-us
+- type: SignUp
+  url: https://www.elevate.ai/request-a-demo
+- type: Login
+  url: https://user.elevateaccounts.com/login
+- type: TermsOfService
+  url: https://www.elevate.ai/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.elevate.ai/legal/privacy-policy
+- type: Compliance
+  url: https://www.elevate.ai/legal/security
+- type: Conformance
+  url: conformance/elevate-conformance.yml
+- type: DomainSecurity
+  url: security/elevate-domain-security.yml
+- type: LLMsTxt
+  url: llms/elevate-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
